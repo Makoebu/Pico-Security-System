@@ -1,0 +1,37 @@
+connect the components as seen on the connections pdf
+
+#LCD display
+GND-GND
+VCC-VBUS
+SDA - GP14
+SCL - GP20
+
+#Flame Sensor
+GND-GND
+VCC - 3.3V(out)
+DO - GP16
+
+RFID Reader
+3.3V - 3.3V
+GND-GND
+RST - GP22
+MISO - GP12
+MOSI - GP11
+SCK - GP10
+SDA - GP13
+
+#Laser
+GND - GND
+VCC - VBUS
+S - GP5
+
+#Photoresistor
+GND - GND
+VCC - VBUS
+S - GP27
+
+#RGB LED
+GND - GND
+R - GP2
+G - GP3
+B - GP4
